@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 200px;
+}
+/* Debut du menu */
+nav{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -10px;
+    background-color:  rgb(239, 13, 13);;
+    height: 10px;
+    position: fixed;
+    width: 100%;
+    margin-left: -5px;
+ }
+ .onglets{
+    margin-left: 50px;
+ }
+ .onglets a{
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+ }
+ 
+
+nav h1{
+ 
+ color: white;
+ font-size: 2em;
+ margin-top: -10px;
+ }
+ .onglets a:hover{
+    font-size: 20px;
+    color: blue;
+ }
+ .entete{
+    
+    color: white;
+    margin-left: 40px;
+    margin-top: -500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
+}
+.entete .nom{
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.entete button{
+    border: 2px solid  rgb(239, 13, 13);
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(239, 13, 13);
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+}
+    
+ /*  Parti A propos  */
+ .corp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+ }
+.corp h1{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 3em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+     'Helvetica Neue', sans-serif;
+
+}
+.corp h6{
+        display: flex;
+        justify-content: center;
+        font-size: 1em;
+        color: rgb(239, 13, 13);
+        margin-top: 10px;
+    }
+.amadou{
+        display: flex;
+        justify-content: space-around;
+        margin-top: é0px;
+        margin-bottom: 80px;
+    }
+.img{
+    width: 300px;
+    height: 300px;
+    border-radius: 7px;
+    }  
+.title{
+    margin-top: 50px;
+    margin-right:50px;
+    padding: 20px;
+}
+.title h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.title button{
+    padding: 15px 20px 15px 20px;
+    margin-top: 30px;
+    background-color:  rgb(239, 13, 13);
+    border-radius: 7px;
+    border: 2px solid rgb(239, 13, 13);
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: rgb(239, 13, 13);
+}
+
+    /*Fin de la Parti A PROPOS */
+/* Debut de Travail */
+.projets{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #111111;
+    margin-top: 40px;
+}
+.projets h1, h4{
+    text-align: center;
+    color: black;
+}
+.projets h1{
+    margin-top: 20px;
+    font-size: 3em;
+    color: white;
+}
+.projet{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.projets h4{
+  color: rgb(239, 13, 13);
+  margin-top: 10px;  
+}
+
+.projet .cap{
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+    margin: 40px;
+    margin-top: 50px;
+    background-color:#222222;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 4px 0.3px 0.5px 0.4px rgb(7A,7A, 7A);
+    
+}
+.projet .cap:hover{
+    background-color: rgb(239, 13, 13);
+}
+.cap .cercle .imag{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+   margin-left: -5px;
+   margin-top: 50px;
+   
+   border: 4px solid rgb(239, 13, 13);
+}
+.cap .cercle{
+    text-align: center;
+    padding: 0px;
+    margin-bottom: -30px;
+    margin-top: -30px;
+}
+.cap .cercle .imag:hover{
+    border: 4px solid rgb(243, 233, 233);
+}
+.cap p{
+    margin-top: 50px;
+    margin-left: 20px; 
+    font-size: 1em;
+    color: white;
+}
+.cercle h2{
+    color: rgb(241, 238, 238);
+}
+/* Fin de Travail */
+
+/* Debut formation */
+.camara{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #222222;
+    margin-top: 20px;
+   
+    
+}
+.camara h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: white;
+    
+}
+.camara .bloc{
+    width: 300px;
+    height: 300px;
+    border-radius: 2%;
+    margin: 40px;
+    
+    background-color: #979A9D;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.camara .blocs{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    margin-left: 80px;
+}
+.blocs p{
+    padding: 20px;
+    margin-top: 80px;
+    margin-top: -6px;
+}
+.bloc  i{
+    margin-top: 70px;
+    margin-left: 110px;
+    font-size: 4em;
+    color: #DC143C;
+}
+
+/* Fin formation */
+
+/* Debut competance */
+.comp{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.comp .title{
+    text-align: center;
+    margin-top: -40px;
+    font-size: 3em;
+}
+.comp h4{
+    color: red;
+}
+.corps{
+    margin-left: 30px;
+    padding: 40px;
+}
+.corps h2{
+   margin-bottom: 10px;
+}
+.corps button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 10px;
+    background-color: rgb(239, 13, 13);
+    border: 2px solid rgb(239, 13, 13);
+    color: white;
+    border-radius: 5px;
+}
+.corps button:hover{
+    background-color: white;
+    color: rgb(239, 13, 13) ;
+   
+    
+}
+
+/* Debut competance */
+
+/* Debut de contact */
+.contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:white;
+    padding: 40px;
+}
+
+.contacts h1, h4{
+    text-align: center;
+}
+.contacts h4{
+    color: red;
+    margin-top: 20px;
+}
+.contacts h1{
+    font-size: 3em;
+    margin-top: -10px;
+}
+.contacts .contact{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.contact{
+    margin-left: 70px;
+}
+span{
+    color:  rgb(239, 13, 13) ;;
+}
+
+.cod .h3{
+    color: gray;
+    margin-left: 60px; 
+
+}
+.cod .h4{
+    color: blue;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+.cod h3 i{
+    color: red;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.cod p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.cod h3{
+    margin-left: 6px;
+}
+.cod{
+    margin-left: -30px;
+}
+.cordon{display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 80px;
+}
+.cordon input{
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 2px solid rgb(35, 29, 29);
+    
+}
+.cordon .inp{
+    margin-bottom: 10px;
+}
+.cordon .id{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+   
+    
+}
+.cordon .id .matiere{
+    margin-top: 10px;
+    padding-bottom: 50px; 
+}
+
+
+.cordon button{
+    padding: 10px 20px 10px 20px;
+    margin-right: 300px;
+    border-radius: 5px;
+    background-color:rgb(239, 13, 13);
+    border: 2px solid rgb(239, 13, 13);
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+.cordon button:hover{
+    background-color:white;
+    color: rgb(239, 13, 13);
+}
+ 
+/* Fin de contact */
+
+/* Debut de pied de page */
+.pied{
+    background-color: #000;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin-top: -20px;   
+}
+.pied p{
+   
+    font-size: 20px;
+    padding: 10px;
+}
+/* Fin de pied de page */ 
+@media all and (min-width: 713px) and (max-width: 1000px){
+    /* Debut du menu */
+   
+    .onglets a, nav h1{
+        display: none;
+        
+    }
+     /* Fin du menu */
+
+     /* Debut de l'entete */
+    .entete{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+     /* Fin de l'entete */
+
+     /* Parti A propos */
+    .amadou{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .amadou .img{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .title{
+        text-align: center;
+       
+    }
+    .title p{
+        margin-left: 10px;
+    }
+     /*Fin Parti A propos */
+
+    /*Debut de Formation  */
+    .camara .blocs{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .blocs .bloc{
+        margin-left: 100px;
+     
+    }
+    /*Debut de Formation  */
+
+    /* Debut competance */
+    .comp{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .comp h1{
+        margin-left: 20px;
+    }
+
+    /* Fin competance */
+
+    /* Debut projet */
+    .projets .projet{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .projet .cap{
+        margin-left: 100px;
+    }
+    /* Fin projet */
+
+    /* Debut de contact */
+    .contacts{
+        display: flex;
+        justify-content: center;
+    }
+    .contacts .contact{
+        display: flex;
+        justify-content: center;
+        
+       
+    }
+    .contact .cod{
+        margin-left: 100px;
+    }
+    .cordon{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    /* Fin de contact */
+    
+}
